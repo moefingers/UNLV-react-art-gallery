@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UNLV-react-art-gallery/static/css/main.a4e09c52.css",
+    "main.js": "/UNLV-react-art-gallery/static/js/main.8b932c8c.js",
+    "static/js/453.a425dab5.chunk.js": "/UNLV-react-art-gallery/static/js/453.a425dab5.chunk.js",
+    "index.html": "/UNLV-react-art-gallery/index.html",
+    "main.a4e09c52.css.map": "/UNLV-react-art-gallery/static/css/main.a4e09c52.css.map",
+    "main.8b932c8c.js.map": "/UNLV-react-art-gallery/static/js/main.8b932c8c.js.map",
+    "453.a425dab5.chunk.js.map": "/UNLV-react-art-gallery/static/js/453.a425dab5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4e09c52.css",
+    "static/js/main.8b932c8c.js"
+  ]
+}
