@@ -10,7 +10,7 @@ function App() {
   let [data, setData] = useState({})
   
   useEffect(() => {
-      document.title='Welcome to Artworld'
+      document.title='React Art Gallery'
       fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${artId}`)
       .then(response => response.json())
       .then(resData => setData(resData))
