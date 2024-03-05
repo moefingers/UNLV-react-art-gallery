@@ -1,5 +1,8 @@
 * {
   outline : 1px dashed black;
+  margin: 0;
+  padding: 0;
+
 }
 
 .App {
@@ -7,6 +10,45 @@
 }
 
 .picture-frame img {
-  height: 50%;
   outline: red solid 2px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.picture-frame .image-container {
+  position: relative;
+  height: 50%;
+  margin: auto;
+}
+
+.picture-frame .image-container p {
+  position: absolute;
+  bottom:10px;
+  right:10px;
+  color: white;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.previous-five {
+  background-color: rgb(255,100,100);
+  color:black;
+}
+
+.previous-one {
+  background-color: rgb(255,150,150);
+  color: black;
+}
+
+
+.forward-one {
+  background-color: rgb(150,255,150);
+  color: black;
+
+}
+
+.forward-five {
+  background-color: rgb(100,255,100);
+  color: black;
+
 }
